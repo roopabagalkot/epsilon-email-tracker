@@ -1,0 +1,12 @@
+Email Scraping Report
+====================
+
+Scraping date: 2025-05-20 00:31:02
+
+Total emails scraped: 0
+- From Really Good Emails: 0
+- From Milled: 0
+
+No emails scraped. Further processing aborted.
+
+Outputs saved to email_campaigns directory
