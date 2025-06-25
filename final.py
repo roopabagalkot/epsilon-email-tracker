@@ -759,16 +759,14 @@ def parse_email_variations(generated_text):
     
     return variations
 
-if __name__ == '__main__':
-    # Initialize database
-    init_db()
-    
-    print("🧪 A/B Testing Email Marketing App")
-    print("✉️  Gmail API Integration Ready")
-    print("📊 Campaign Tracking Enabled")
-    print("🎯 Endpoints:")
-    print("   - Main: http://localhost:5000")
-    print("   - Dashboard: http://localhost:5000/ab-dashboard")
-    print("   - Campaigns: http://localhost:5000/campaigns")
-    
-    app.run(debug=True, host='0.0.0.0', port=5000)
+# Commented out for production (Railway uses gunicorn)
+# if __name__ == '__main__':
+#     init_db()
+#     print("🧪 A/B Testing Email Marketing App")
+#     print("✉️  Gmail API Integration Ready")
+#     print("📊 Campaign Tracking Enabled")
+#     print("🎯 Endpoints:")
+#     print("   - Main: http://localhost:5000")
+#     print("   - Dashboard: http://localhost:5000/ab-dashboard")
+#     print("   - Campaigns: http://localhost:5000/campaigns")
+#     app.run(debug=True, host='0.0.0.0', port=5000)
