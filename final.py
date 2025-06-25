@@ -21,6 +21,7 @@ import io
 BASE_URL = os.environ.get('BASE_URL', 'http://localhost:5000')
 
 app = Flask(__name__, template_folder="templates")
+init_db()
 
 # Gmail API configuration
 SCOPES = ['https://www.googleapis.com/auth/gmail.send', 'https://www.googleapis.com/auth/gmail.readonly']
