@@ -366,7 +366,7 @@ def index():
 @app.route('/ab-dashboard')
 def ab_dashboard():
     """A/B testing dashboard"""
-    return render_template('ab_dashboard.html')
+    return render_template('abtesting.html')
 
 @app.route('/create-campaign', methods=['POST'])
 def create_campaign():
